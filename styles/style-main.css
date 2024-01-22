@@ -4,10 +4,16 @@ body{
     background-color: rgb(21, 19, 37);
 }
 
+#grid{
+    display: grid;
+}
+
 #lista-hobbies{
     background-color: white;
-    width: 45%;
+    margin-right: 10px;
     border-radius: 0px 50px 50px 0px;
+    grid-row: 1;
+    grid-column: 1;
 }
 
 #lista-hobbies ul{
@@ -20,12 +26,89 @@ body{
     text-decoration: none;
 }
 
+#lista-hobbies a:visited{
+    font: lighter 20px Fixedsys;
+    color: rgb(154, 14, 167);
+}
+
 #lista-hobbies a:hover{
     font: lighter 20px Fixedsys;
+    color: rgb(33, 156, 115);
     text-decoration: none;
 }
 
 #lista-hobbies a:active{
     font: lighter 20px Fixedsys;
+    color: rgb(18, 120, 138);
+    text-shadow: 4px 3px 5px rgb(41, 41, 41);
+}
+
+#lista-paginas{
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 0px 50px 50px 0px;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#lista-paginas ul{
+    list-style: none;
+    padding: 10px;
+}
+
+#lista-paginas a{
+    font: lighter 18px System;
     text-decoration: none;
+}
+
+#lista-paginas a:visited{
+    font: lighter 20px System;
+    color: rgb(154, 14, 167);
+}
+
+#lista-paginas a:hover{
+    font: lighter 20px System;
+    color: rgb(33, 156, 115);
+    text-decoration: none;
+}
+
+#lista-paginas a:active{
+    font: lighter 20px System;
+    color: rgb(18, 120, 138);
+    text-shadow: 4px 3px 5px rgb(41, 41, 41);
+}
+
+main{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+main div{
+    background-color: rgb(56, 207, 157);
+    border-radius: 20px;
+    border: outset 5px white;
+    margin-bottom: 10px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+main p{
+    margin-top: 0px;
+    background-color: gainsboro;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4px;
+    text-align: center;
+    place-items: center;
 }
