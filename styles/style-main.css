@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(21, 19, 37);
+}
+
+#lista-hobbies{
+    background-color: white;
+    width: 45%;
+    border-radius: 0px 50px 50px 0px;
+}
+
+#lista-hobbies ul{
+    list-style: none;
+    padding: 10px;
+}
+
+#lista-hobbies a{
+    font: lighter 18px Fixedsys;
+    text-decoration: none;
+}
+
+#lista-hobbies a:hover{
+    font: lighter 20px Fixedsys;
+    text-decoration: none;
+}
+
+#lista-hobbies a:active{
+    font: lighter 20px Fixedsys;
+    text-decoration: none;
+}
