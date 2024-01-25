@@ -8,7 +8,7 @@
     <title>Hobbies</title>
 </head>
 
-<body>
+<body onload="obtenerHora()">
     <div id="grid">
         <header>
             <nav id="lista-hobbies">
@@ -25,7 +25,7 @@
             </nav>
         </header>
         <main>
-            <div>
+            <div class="datos">
                 <article id="mi-musica">
                     <h2>¿Qué clase de música escucho?</h2>
                     <P> En general escucho todo tipo de música, pero me gusta más una música por el ritmo, ya que
@@ -35,13 +35,13 @@
                     </P>
                     <section class="imagenes">
                         <figure>
-                            <img src="multimedia/Michael Jackson.jpg" alt="Michael Jackson" width="150px">
+                            <img src="multimedia/Michael Jackson.jpg" alt="Michael Jackson">
                             <figcaption><a
                                     href="https://es.wikipedia.org/wiki/Archivo:Michael_Jackson_Dangerous_World_Tour_1993.jpg">Foto
                                     de Michael Jackson</a></figcaption>
                         </figure>
                         <figure>
-                            <img src="multimedia/Freddie Mercury.jpg" alt="Freddie Mercury" height="233.91">
+                            <img src="multimedia/Freddie Mercury.jpg" alt="Freddie Mercury">
                             <figcaption><a
                                     href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpeople.com%2Fmusic%2Ffreddie-mercury-queen-singer-looking-back-on-his-final-days-on-anniversary-of-death%2F&psig=AOvVaw3mh12dgfnvzmFgypnNhPIh&ust=1706029540521000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIja0se88YMDFQAAAAAdAAAAABAD">Es
                                     una foto de Fredide Mercury.</a></figcaption>
@@ -49,7 +49,7 @@
                     </section>
                 </article>
             </div>
-            <div>
+            <div class="datos">
                 <article id="tiempo-libre">
                     <h2>¿Qué hago en mi tiempo libre?</h2>
                     <P> Algunas de las cosas que me gusta hacer es jugar juegos, como lo es Rocket League, League of
@@ -60,12 +60,12 @@
                     </P>
                     <section class="imagenes">
                         <figure>
-                            <img src="multimedia/discord.gif" alt="Discord" width="150px">
+                            <img src="multimedia/discord.gif" alt="Discord" >
                             <figcaption><a href="https://tenor.com/es-419/view/discord-discord-wink-gif-21567505">Gif de
                                     discord</a></figcaption>
                         </figure>
                         <figure>
-                            <img src="multimedia/left4dead2.gif" alt="Left 4 Dead 2" width="250px">
+                            <img src="multimedia/left4dead2.gif" alt="Left 4 Dead 2">
                             <figcaption><a href="https://tenor.com/es-419/view/left4dead2-gif-26266087">Gif de Left 4
                                     Dead 2.</a></figcaption>
                         </figure>
@@ -75,7 +75,8 @@
         </main>
     </div>
     <footer>
-        <input type="datetime-local" value="" readonly>
+        <h2>LA HORA ACTUAL ES:</h2>
+        <input type="text" id="reloj" readonly>
     </footer>
     <script src="scripts/script-main.js"></script>
 </body>
