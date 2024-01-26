@@ -20,15 +20,116 @@
                     </button>
                     <div class="collapse navbar-collapse p-3 mb-2 bg-dark-subtle text-emphasis-dark" id="navbarNav">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="#">Sobre mí</a>
-                            <a class="nav-link" href="#">Habilidades</a>
+                            <button class="nav-link" type="button" data-bs-toggle="collapse" href="#sobreMi" aria-expanded="false" aria-controls="sobreMi">Sobre mí</button>
+                            <button class="nav-link" type="button" data-bs-toggle="collapse" href="#habilidades" aria-expanded="false" aria-controls="habilidades">Habilidades</button>
                           </div>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container">
+        <div class="collapse" id="sobreMi">
+            <div class="card card-body m-4">
+                <section>
+                    <p>
+                        Soy una persona que le gusta siempre aprender nuevas
+                        técnicas de trabajo, ya sea de forma individual o en
+                        grupo. A la hora de trabajar en grupo soy responsable de
+                        mi trabajo, siempre dispuesto a ayudar a los demás, con
+                        el fin de llevar a cabo las fases necesarias para la
+                        completación de los proyectos.
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="collapse" id="habilidades">
+            <div class="card card-body m-4">
+                <section id="lenguajes">
+                    <h3>Lenguajes de programación</h3>
+                    <p>
+                        He usado diferentes lenguajes de programación para
+                        realizar aplicaciones, algunas complejas y otras un
+                        poco simples, pero todas las apps tenían su parte
+                        díficil.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Lenguaje</th>
+                                <th>Nivel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Java</td>
+                                <td>
+                                    <progress value="65" max="100"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Java EE</td>
+                                <td>
+                                    <progress value="55" max="100"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>
+                                    <progress value="50" max="100"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>
+                                    <progress value="40" max="100"></progress>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        <div class="collapse" id="habilidades">
+            <div class="card card-body m-4">
+                <section id="desarrollo">
+                    <h3>Desarrollo web</h3>
+                    <p>
+                        De parte del desarrollo web he tenido la oportunidad
+                        de realizar estructuras en HTML, usando diversas
+                        etiquetas y dejando con buen diseño las páginas web
+                        con el uso de CSS.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Lenguaje</th>
+                                <th>Nivel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>
+                                    <progress
+                                        value="50"
+                                        max="100"
+                                    ></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>
+                                    <progress
+                                        value="40"
+                                        max="100"
+                                    ></progress>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
 
