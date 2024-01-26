@@ -1,6 +1,7 @@
-var progreso = 0;
+var progresos = 0;
+var progresoJava =0;
 function mostrarProgreso() {
-	let bar = document.getElementById("bar");
+	/*let bar = document.getElementById("bar");
     console.log(progreso);
 	if(progreso<55){
         progreso+=5;
@@ -10,12 +11,29 @@ function mostrarProgreso() {
     }else{
         setTimeout("progreso=0;mostrarProgreso()",5000);
         bar.innerHTML = progreso;
+    }*/
+    if(progresos == 6){
+        cargarBarras();
+    }else{
+        barJava();
+       /* barJavaEE();
+        barSQL();
+        barJS();
+        barHTML();
+        barCSS();*/
     }
 }
 
 function barJava(){
-    if(progreso<71){
-
+    let barJava = document.getElementById("barJava");
+    if(progresoJava<70){
+        progresoJava+=5;
+        barJava.style.width = progresoJava+'%';
+        barJava.innerHTML = progresoJava+"%";
+        setTimeout("barJava()",1000);
+    }else{
+        progresoJava=0;
+        progresos+1;
     }
 }
 function barJavaEE(){
