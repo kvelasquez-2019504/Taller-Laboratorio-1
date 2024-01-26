@@ -136,7 +136,7 @@ footer h2{
 
 footer input{
     text-align: center;
-    font: bolder 25px Impact Arial;
+    font: bolder 25px Impact, Arial;
     background-color: gainsboro;
     border-radius: 15px;
 }
