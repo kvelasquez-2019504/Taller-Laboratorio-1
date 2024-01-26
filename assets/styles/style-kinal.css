@@ -59,9 +59,10 @@ background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%,
     margin-top: -20px;
     position: relative;
     background-color: white;
-    padding: 80px;
+    padding: 70px;
     border-radius: 200px 200px 0px 0px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 #card1 .card-title{
@@ -80,6 +81,12 @@ background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%,
     background-color: rgb(255,182,0);
     padding: 8px;
     border-radius: 150px 0px 150px 0px;
+}
+
+#card4 .card-title{
+    background-color: #187e81;
+    padding: 8px;
+    border-radius: 25px;
 }
 
 footer{
