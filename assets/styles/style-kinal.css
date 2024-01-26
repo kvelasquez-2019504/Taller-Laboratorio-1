@@ -24,18 +24,31 @@ header{
     cursor: pointer;
 }
 
+li a{
+    text-decoration: none;
+}
+
+li a:link{
+    color: white;
+}
+
+li a:visited{
+    color: white;
+}
+
+li a:hover{
+    color: #83224e;
+}
+
+li a:active{
+    color: #211a7c;
+}
+
 main{
     display: flex;
     flex-direction: column;
     background: rgb(131,34,78);
 background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%, rgba(255,255,255,1) 100%);
-}
-
-footer{
-    font: lighter 24px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    background-color: #23376d;
-    color: white;
 }
 
 #carousel-Kinal img{
@@ -51,10 +64,31 @@ footer{
     display: flex;
 }
 
-.card-title{
+#card1 .card-title{
     background-color: #83224e;
     padding: 8px;
     border-radius: 150px 0px 150px 0px;
+}
+
+#card2 .card-title{
+    background-color: rgb(32,52,107);
+    padding: 8px;
+    border-radius: 150px 0px 150px 0px;
+}
+
+#card3 .card-title{
+    background-color: rgb(255,182,0);
+    padding: 8px;
+    border-radius: 150px 0px 150px 0px;
+}
+
+footer{
+    font: lighter 24px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: #23376d;
+    color: white;
+    margin: 0%;
+    padding: 6px;
 }
 
 @media screen and (max-width:655px) {
