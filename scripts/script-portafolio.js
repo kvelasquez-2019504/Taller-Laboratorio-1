@@ -12,3 +12,34 @@ function mostrarProgreso() {
         bar.innerHTML = progreso;
     }
 }
+
+function barJava(){
+    if(progreso<71){
+
+    }
+}
+function barJavaEE(){
+    if(progreso <61){
+
+    }
+}
+function barSQL(){
+    if(progreso <56){
+
+    }
+}
+function barJS(){
+    if(progreso<41){
+
+    }
+}
+function barHTML(){
+    if(progreso >46){
+
+    }
+}
+function barCSS(){
+    if(progreso >46){
+
+    }
+}
