@@ -2,12 +2,12 @@
     margin: 0px; padding: 0px;
 }
 
-#lista-principal{
-    padding: 10px;
-}
-
 header{
     background-color: #bfa829;
+}
+
+#lista-principal{
+    padding: 10px;
 }
 
 #lista-principal ul{
@@ -20,7 +20,7 @@ header{
 }
 
 #lista-principal ul li{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bolder;
     color: white;
     margin: 0px auto;
@@ -36,8 +36,16 @@ footer{
     font: lighter 24px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
+
+#carousel-Kinal img{
+    height: 650px;
+}
+
 @media screen and (max-width:655px) {
     #lista-principal ul{
         display: grid;
+    }
+    #lista-principal ul li{
+        font-size: 22px;
     }
 }
