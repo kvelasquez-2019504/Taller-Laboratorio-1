@@ -6,10 +6,6 @@ header{
     background-color: #bfa829;
 }
 
-#lista-principal{
-    padding: 10px;
-}
-
 #lista-principal ul{
     display: flex;
     flex-direction: row;
@@ -17,10 +13,11 @@ header{
     justify-content: center;
     list-style: none;
     align-content: center;
+    margin-bottom: 0px;
 }
 
 #lista-principal ul li{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bolder;
     color: white;
     margin: 0px auto;
@@ -30,15 +27,33 @@ header{
 main{
     display: flex;
     flex-direction: column;
+    background: rgb(131,34,78);
+background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%, rgba(255,255,255,1) 100%);
 }
 
 footer{
     font: lighter 24px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    background-color: #23376d;
+    color: white;
 }
 
 #carousel-Kinal img{
     height: 650px;
+}
+
+#contenido{
+    margin-top: -20px;
+    position: relative;
+    background-color: white;
+    padding: 80px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.card-title{
+    background-color: #83224e;
+    padding: 3px;
+    border-radius: 150px 0px 150px 0px;
 }
 
 @media screen and (max-width:655px) {
