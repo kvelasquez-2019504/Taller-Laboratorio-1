@@ -48,11 +48,12 @@ footer{
     background-color: white;
     padding: 80px;
     border-radius: 200px 200px 0px 0px;
+    display: flex;
 }
 
 .card-title{
     background-color: #83224e;
-    padding: 3px;
+    padding: 8px;
     border-radius: 150px 0px 150px 0px;
 }
 
