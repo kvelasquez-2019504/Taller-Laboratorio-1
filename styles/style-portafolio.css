@@ -1,0 +1,33 @@
+table thead{
+    text-align: center;
+}
+
+table,
+table td,
+table th {
+    border: solid 1px black;
+    padding: 4px;
+}
+
+.progreso{
+    width: 350px;
+}
+
+table {
+    grid-row: 2;
+    border-radius: 7px;
+    background-color: #93B1A6;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+table th {
+    font: bolder 17px "Candara";
+    color: white;
+    background-color: #040D12;
+}
+
+table td {
+    background-color: white;
+    text-align: center;
+}
