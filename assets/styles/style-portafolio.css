@@ -31,3 +31,25 @@ table td {
     background-color: white;
     text-align: center;
 }
+
+dl {
+    padding: 10px;
+    text-align: left;
+    background-color: #2f6674;
+    border-radius: 15px;
+}
+
+dl dt {
+    border-radius: 5px;
+    padding: 1px;
+    font: bold 17px "Eras Demi ITC", "Lucida Sans";
+    color: white;
+    background-color: #082032;
+}
+
+dl dd {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+}

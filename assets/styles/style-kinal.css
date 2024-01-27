@@ -95,6 +95,58 @@ background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%,
     border-radius: 25px;
 }
 
+#contenido2{
+    padding: 70px;
+    border-radius: 0px 0px 200px 200px;
+    background-color: rgb(22,35,63);
+    color: white;
+}
+
+#donacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#donacion #col-img img{
+    width: 420px;
+}
+
+#donacion #col-texto{
+    margin: 25px;
+}
+
+#col-texto h2{
+    color: #ffb600;
+}
+
+#col-texto p{
+    font-size: 20px;
+}
+
+#beneficiados .col{
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 5px 8px 5px rgb(40, 88, 179);
+}
+
+#col-1{
+    background-color: #fda690;
+}
+
+#col-2 {
+    background-color: #7d0a42;
+}
+
+#col-3{
+    background-color: #23376d;
+}
+
+#col-4{
+    background-color: rgb(235, 114, 7);
+}
+
 footer{
     background-color: #23376d;
     color: white;
@@ -198,6 +250,7 @@ footer h3{
     right: 0;
     bottom: 0;
     margin: auto;
+    /*Los parametros de la animación son: nombre, duración, tipo y que sea infinita*/
     -webkit-animation: girar 1.5s linear infinite;
     -o-animation: girar 1.5s linear infinite;
     animation: girar 1.5s linear infinite; 
@@ -208,13 +261,24 @@ footer h3{
     to{transform: rotate(360deg);}
 }
 
-
-
 @media screen and (max-width:655px) {
     #lista-principal ul{
         display: grid;
     }
     #lista-principal ul li{
         font-size: 22px;
+    }
+}
+@media (max-width:1250px){
+    #contenido{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:840px){
+    #contenido{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
