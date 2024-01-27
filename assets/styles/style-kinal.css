@@ -148,26 +148,21 @@ footer h3{
     margin: 5px;
 }
 
-#redes a{
+#redes button{
+    background-color: transparent;
+    border: none;
     text-decoration: none;
     font-size: 19px;
-}
-
-#redes a:link{
     color: white;
 }
 
-#redes a:visited{
-    color: white;
-}
-
-#redes a:hover{
+#redes button:hover{
     background-color: rgb(235,144,34);
     text-shadow: 1px 0px 0px;
     color: #630b28;
 }
 
-#redes a:active{
+#redes button:active{
     color: #ffb600;
     background-color: transparent;
 }
@@ -177,6 +172,43 @@ footer h3{
     text-align: center;
     justify-content: end;
 }
+
+#contenedor-Carga{
+    display: none;
+    background-color: rgba(250, 240, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-animation: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color:#F4266c;
+    border-top-style:groove ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite; 
+}
+
+@keyframes girar {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+
 
 @media screen and (max-width:655px) {
     #lista-principal ul{
