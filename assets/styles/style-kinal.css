@@ -102,8 +102,11 @@ footer{
     padding: 6px;
 }
 
-#contacto h3{
+footer h3{
     font-family: 'Impact', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contacto h3{
     display: flex;
     flex-direction: column;
 }
@@ -133,6 +136,46 @@ footer{
 
 #contacto a:active{
     color: #ffb600;
+}
+
+#redes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+#redes img{
+    width: 15%;
+    margin: 5px;
+}
+
+#redes a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#redes a:link{
+    color: white;
+}
+
+#redes a:visited{
+    color: white;
+}
+
+#redes a:hover{
+    background-color: rgb(235,144,34);
+    text-shadow: 1px 0px 0px;
+    color: #630b28;
+}
+
+#redes a:active{
+    color: #ffb600;
+    background-color: transparent;
+}
+
+#copy{
+    font: lighter 22px 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: end;
 }
 
 @media screen and (max-width:655px) {
