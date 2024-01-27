@@ -78,7 +78,7 @@ background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%,
 }
 
 #card3 .card-title{
-    background-color: rgb(255,182,0);
+    background-color: #ffb600;
     padding: 8px;
     border-radius: 150px 0px 150px 0px;
 }
@@ -89,13 +89,50 @@ background: linear-gradient(90deg, rgba(131,34,78,1) 0%, rgba(147,73,106,1) 50%,
     border-radius: 25px;
 }
 
+#card5 .card-title{
+    background-color: #1a0979;
+    padding: 8px;
+    border-radius: 25px;
+}
+
 footer{
-    font: lighter 24px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
     background-color: #23376d;
     color: white;
     margin: 0%;
     padding: 6px;
+}
+
+#contacto h3{
+    font-family: 'Impact', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto hr{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contacto a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#contacto a:link{
+    color: white;
+}
+
+#contacto a:visited{
+    color: white;
+}
+
+#contacto a:hover{
+    text-shadow: 1px 0px 0px;
+    color: #630b28;
+}
+
+#contacto a:active{
+    color: #ffb600;
 }
 
 @media screen and (max-width:655px) {
